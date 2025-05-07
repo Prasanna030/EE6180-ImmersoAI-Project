@@ -1,0 +1,29 @@
+[
+  {
+    "id": "bajirao-sd3-llama_cap",
+    "type": "local",
+    "crop": true,
+    "crop_aspect": "square",
+    "crop_style": "center",
+    "resolution": 1024,
+    "minimum_image_size": 0,
+    "maximum_image_size": 1024,
+    "target_downsample_size": 1024,
+    "resolution_type": "pixel_area",
+    "cache_dir_vae": "/mnt/local/lora/SimpleTuner/output/cache/vae/sd3/bajirao-llama",
+    "instance_data_dir": "/mnt/local/lora/SimpleTuner/datasets/bajirao-llama",
+    "disabled": false,
+    "skip_file_discovery": "",
+    "caption_strategy": "filename",
+    "metadata_backend": "discovery"
+  },
+  {
+    "id": "text-embeds",
+    "type": "local",
+    "dataset_type": "text_embeds",
+    "default": true,
+    "cache_dir": "cache/text/sd3/bajiroa-llama",
+    "disabled": false,
+    "write_batch_size": 128
+  }
+]
