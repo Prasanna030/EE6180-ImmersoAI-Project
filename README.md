@@ -1,4 +1,4 @@
-# 🧠 Bajirao Mastani Fine-Tuning Project with ImmersoAI
+#  Bajirao Mastani Fine-Tuning Project with ImmersoAI
 
 This project, in collaboration with **ImmersoAI**, fine-tunes Stable Diffusion models using the **LoRA (Low-Rank Adaptation)** framework on a **Bajirao Mastani**-themed dataset. The project explores various versions of Stable Diffusion, including SD 1.5, SDXL, and SD 3.5, using both **CLIP** and **LLaMA** captioning strategies for improved prompt conditioning and generative performance.
 
